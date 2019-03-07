@@ -16,7 +16,7 @@ export default (
                     <Image
                         className="img_shake"
                         height={180}
-                        src={`/img/gecko/${val}.png`}
+                        src={`img/gecko/${val}.png`}
                         alt={`gecko-${val}`}
                         key={val}
                     />

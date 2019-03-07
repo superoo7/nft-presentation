@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "gh-pages": "^2.0.1",
         "mobx": "^5.9.0",
         "mobx-react-lite": "^1.1.0",
         "react": "^16.8.4",
@@ -27,7 +28,8 @@
         "start": "react-scripts-ts start",
         "build": "react-scripts-ts build",
         "test": "react-scripts-ts test --env=jsdom",
-        "eject": "react-scripts-ts eject"
+        "eject": "react-scripts-ts eject",
+        "deploy": "gh-pages -d build"
     },
     "description": "Scaffold from https://github.com/superoo7/spectacle-typescript-boilerplate",
     "main": "index.js",
@@ -41,5 +43,5 @@
     "bugs": {
         "url": "https://github.com/superoo7/nft-presentation/issues"
     },
-    "homepage": "https://github.com/superoo7/nft-presentation#readme"
+    "homepage": "https://superoo7.github.io/nft-presentation"
 }

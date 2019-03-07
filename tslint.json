@@ -1,5 +1,8 @@
 {
     "extends": ["tslint-react"],
+    "linterOptions": {
+        "exclude": ["*.json", "**/*.json"]
+    },
     "rules": {
         "align": [false],
         "ban": false,
@@ -17,7 +20,6 @@
         "label-position": true,
         "max-line-length": [true, 120],
         "member-ordering": [true, "public-before-private", "static-before-instance", "variables-before-functions"],
-        "no-any": true,
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [true, "log", "error", "debug", "info", "time", "timeEnd", "trace"],

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.patrick-hand {
+    font-family: 'Patrick Hand', cursive;
+}

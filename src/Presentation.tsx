@@ -1,22 +1,24 @@
 import * as React from 'react'
 import { useState, useEffect, FunctionComponent } from 'react'
 import { Deck } from 'spectacle'
-
 import createTheme from 'spectacle/lib/themes/default'
 import './images'
+import './style/font.css'
+import './style/index.css'
 
 require('normalize.css')
 
 const theme = createTheme(
     {
-        primary: 'white',
-        secondary: '#1F2022',
-        tertiary: '#03A9FC',
-        quarternary: '#CECECE'
+        primary: '#616161',
+        secondary: '#424242',
+        tertiary: '#BDBDBD',
+        quarternary: '#CECECE',
+        't-primary': '#EEEEEE',
+        teal: '#5CBFC8'
     },
     {
-        primary: 'Montserrat',
-        secondary: 'Helvetica'
+        primary: 'Oswald'
     }
 )
 

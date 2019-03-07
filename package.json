@@ -3,18 +3,21 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "react": "^16.8.3",
-        "react-dom": "^16.8.3",
-        "react-hot-loader": "^4.7.1",
-        "spectacle": "^5.4.0"
+        "mobx": "^5.9.0",
+        "mobx-react-lite": "^1.1.0",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4",
+        "react-hot-loader": "^4.8.0",
+        "spectacle": "^5.4.0",
+        "web3": "^1.0.0-beta.48"
     },
     "devDependencies": {
         "@types/jest": "^24.0.9",
-        "@types/react": "^16.8.6",
+        "@types/react": "^16.8.7",
         "@types/react-dom": "^16.8.2",
         "@types/react-hot-loader": "^4.1.0",
         "@types/spectacle": "^5.2.3",
-        "@types/webpack-env": "^1.13.5",
+        "@types/webpack-env": "^1.13.8",
         "react-scripts-ts": "3.1.0",
         "redbox-react": "^1.6.0",
         "spectacle-renderer": "^0.0.3",

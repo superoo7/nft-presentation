@@ -28,5 +28,18 @@
         "build": "react-scripts-ts build",
         "test": "react-scripts-ts test --env=jsdom",
         "eject": "react-scripts-ts eject"
-    }
+    },
+    "description": "Scaffold from https://github.com/superoo7/spectacle-typescript-boilerplate",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/superoo7/nft-presentation.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/superoo7/nft-presentation/issues"
+    },
+    "homepage": "https://github.com/superoo7/nft-presentation#readme"
 }

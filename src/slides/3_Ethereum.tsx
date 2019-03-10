@@ -11,20 +11,27 @@ const EthPrice = () => {
         document.head.append(scriptObj)
 
         const node = priceRef.current
-        /* tslint:disable */
+        /* tslint:disable max-line-length */
         node!.innerHTML =
             '<coingecko-coin-price-chart-widget coin-id="ethereum" currency="usd" height="300" locale="en"></coingecko-coin-price-chart-widget>'
     }, [])
 
-    return <div ref={priceRef} />
+    return (
+        <div className="d-flex justify-content-center">
+            <div style={{ height: '100%', width: 'auto' }}>
+                <Image src="img/ethereum.png" />
+                <span>Ethereum</span>
+            </div>
+            <div ref={priceRef} />
+        </div>
+    )
 }
 
 export default (
     <Slide transition={['fade']} bgColor="lightgreen">
         <Heading margin="0 0 30px 0" size={1} textColor="darkblue">
-            Ethereum
+            Blockchain for NFTs
         </Heading>
-        <Image src="img/ethereum.png" />
         <EthPrice />
     </Slide>
 )

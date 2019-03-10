@@ -20,7 +20,7 @@ const SetupAddressComponent: React.FunctionComponent<Props> = observer(() => {
     }
     return (
         <div className="d-flex flex-column justify-content-center align-items-center">
-            <input type="text" value={web3!.accountChosen} onChange={handleChange} className="form-control" />
+            <input type="text" value={web3!.accountChosen} onChange={handleChange} className="form-control mb-3" />
             <button className="btn btn-info" onClick={handleClick}>
                 Update Address to {holderAddr}
             </button>

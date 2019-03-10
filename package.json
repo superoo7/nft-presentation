@@ -13,12 +13,12 @@
         "web3": "^1.0.0-beta.48"
     },
     "devDependencies": {
-        "@types/jest": "^24.0.9",
+        "@types/jest": "^24.0.11",
         "@types/react": "^16.8.7",
         "@types/react-dom": "^16.8.2",
         "@types/react-hot-loader": "^4.1.0",
         "@types/spectacle": "^5.2.3",
-        "@types/webpack-env": "^1.13.8",
+        "@types/webpack-env": "^1.13.9",
         "react-scripts-ts": "3.1.0",
         "redbox-react": "^1.6.0",
         "spectacle-renderer": "^0.0.3",
